@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guerra da Síria - Documentário Interativo</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header class="hero">
+<div class="overlay"></div>
+
+<div class="hero-content">
+<h1>Guerra da Síria</h1>
+<p>Um dos conflitos mais complexos e devastadores do século XXI</p>
+<a href="#conteudo" class="btn">Explorar</a>
+</div>
+</header>
+
+<section id="conteudo">
+
+<h2>Resumo do Conflito</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Início</h3>
+<p>Começou em 2011 com protestos da Primavera Árabe contra o governo sírio.</p>
+</div>
+
+<div class="card">
+<h3>Evolução</h3>
+<p>O conflito se tornou uma guerra civil envolvendo múltiplos grupos armados e potências internacionais.</p>
+</div>
+
+<div class="card">
+<h3>Impacto</h3>
+<p>Milhões de mortos, refugiados e cidades destruídas.</p>
+</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>Mapa Interativo da Síria</h2>
+<div id="map"></div>
+
+</section>
+
+<section>
+
+<h2>Cidades Importantes</h2>
+
+<div class="cards">
+<div class="card">Damasco</div>
+<div class="card">Aleppo</div>
+<div class="card">Homs</div>
+<div class="card">Idlib</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>Refugiados ao Longo dos Anos</h2>
+<canvas id="grafico"></canvas>
+
+</section>
+
+<section>
+
+<h2>Galeria de Imagens</h2>
+
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1486299267070-83823f5448dd">
+<img src="https://images.unsplash.com/photo-1511732351157-1865efcb7b7b">
+<img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e">
+</div>
+
+</section>
+
+<footer>
+<p>Trabalho Escolar - Guerra da Síria</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
